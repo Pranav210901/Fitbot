@@ -19,7 +19,7 @@ def get_response(message, history):
     logger.info(f'Chat history: {history}')
 
     # Format the chat history
-    formatted_chat_history = [{'role': 'model', 'content': 'Assistant is a large language model trained by OpenAI.'}]
+    formatted_chat_history = [{'role': 'model', 'content': 'Assistant is a large language model trained by Google.'}]
 
     # Process conversation history
     if history and len(history) > 0:
